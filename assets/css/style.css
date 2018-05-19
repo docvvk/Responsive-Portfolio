@@ -152,3 +152,114 @@ h2 {
     position: relative;
     bottom: 3vw;
 }
+
+@media (max-width: 640px) {
+
+    .container {
+        max-width: 100%;
+    }
+    .section {
+        width: 100%;
+    }
+    .logo {
+        font: 25px 'Georgia', Times, Times New Roman, serif;
+        font-weight: 600;
+        padding: 1.8vw;
+        text-align: center;
+        width: 100%;  
+        letter-spacing: 3px;  
+        text-transform: uppercase;
+    }
+    .sublogo {
+        text-align: center;
+        padding: 17px;
+        position: relative;
+        top: 9px;
+    }
+    nav a {
+        font-size: 15px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        float: none;
+        padding: 0 8vw;
+    }
+    h1 {
+        font: 20px 'Georgia', Times, Times New Roman, serif;
+        font-weight: 600;
+        text-align: center;
+    }
+    p {
+        font: 16px 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    img {
+        height: 300px;
+        width: 100%;
+        margin: 0 10px 10px 0;
+        float: none;
+    }
+    .profilePic {
+        max-width: 400px;
+    }
+    footer  {
+        font-size: 9px;
+        padding: 14px;
+        border-top: 2px solid #4aaaa5;
+
+    }
+    #main {
+        height: 640px ;
+        top: 90px;
+        padding: 3vw;
+        width: 90vw;
+        text-align: center;
+    }
+    
+    /* CSS for portfolio.html */
+
+    h2 {
+        padding: 10px;
+        width: 100%;
+        top: 150px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .workImage {
+        height: 200px;
+        width: 100%;
+        float: none;
+    }
+    .work {
+        overflow: hidden;
+        text-align: center;
+        margin: 1vw;
+    }
+    .projects {
+        bottom: 3vw;
+        overflow: hidden;
+        /* text-align: center; */
+        margin-bottom: 40px;
+        background-color: #ffffff;
+    }
+  
+    /* CSS FOR contact.html */
+
+    label {
+        font: 13px 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        padding: 5px 0;
+        float: left;
+    }
+    input#name,#email {
+        width: 100%;
+        padding: 1vw;
+    }
+    input#message {
+        width: 100%;
+        padding: 8vw;
+        margin: .5vw 0 2vw 0; 
+    }
+    button {
+        padding: 1vw 2vw;
+        font-size: 15px;
+        font-weight: 600;
+        float: left;
+    }
+}
