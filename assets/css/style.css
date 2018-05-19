@@ -206,7 +206,7 @@ h2 {
 
     }
     #main {
-        height: 640px ;
+        height: 100% ;
         top: 90px;
         padding: 3vw;
         width: 90vw;
